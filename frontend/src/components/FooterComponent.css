@@ -1,0 +1,33 @@
+.footer {
+    background-color: #333;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .social-icons {
+    display: inline-block; /* Display social icons in a horizontal line */
+    margin-left: 10px; /* Add some spacing between text and icons */
+  }
+  
+  .social-icons a {
+    color: #007bff; /* Change the font color to blue */
+    margin-left: 10px;
+  }
+  
+  .toggle-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }

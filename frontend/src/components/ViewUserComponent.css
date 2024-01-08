@@ -1,0 +1,24 @@
+.card {
+    background-color: #d4edda;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .row {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+    display: inline-block; /* Align the colons properly */
+    width: 150px; /* Set a fixed width for labels */
+  }
+  
+  .card-body {
+    padding: 20px;
+    border-top: 1px solid #28a745; /* Add a green border line at the top of the card body */
+  }
+  

@@ -1,0 +1,24 @@
+/* HomeComponent.css */
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+  }
+  
+  
+  .center-content {
+    text-align: center;
+    color: rgb(0, 0, 0); /* Adjust text color to be visible on the background */
+  }
+  
+  /* Add responsive styles for smartphones if necessary */
+  @media (max-width: 1080px) {
+    /* Add any specific styles for smaller screens */
+    .home-container {
+      padding: 20px; /* Adjust as needed */
+    }
+  }
+  
